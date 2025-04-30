@@ -1,0 +1,26 @@
+{
+    "type": "origins:action_on_callback",
+    "entity_action_chosen": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "scale set pehkui:height 0.80 @s"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale set pehkui:width 0.80 @s"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale persist set true 0.80 @s"
+            }
+        ]
+    },
+    "entity_action_lost": {
+        "type": "origins:execute_command",
+        "command": "scale reset @s"
+    },
+    "name": "You are 5'10'",
+    "description": "Short King"
+}

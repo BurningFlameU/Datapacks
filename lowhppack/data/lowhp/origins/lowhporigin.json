@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"lowhp:lowerhp",
+		"lowhp:smallplayer"
+	],
+	"icon": "minecraft:dirt",
+	"order": 11,
+	"impact": 1,
+	"name": "Weak",
+	"description": "Yea... This is your life now."
+}
